@@ -135,7 +135,8 @@
 .about2-content{
         background-color:pink;
         height:450px;
-}	   
+}	 
+    /*services section style*/   
 .services-title{
 	   background-color:pink;
 	   padding:10px;
@@ -144,6 +145,20 @@
 	background-color:black;
 	height:50px;
 }
+.logo-services-content{
+	 background-color:pink;
+	   padding:10px;
+}
+.services-content{
+	background-color:black;
+	height:100px;
+	margin-right:20px;
+	margin-top:10px;
+}
+.banner2-call-section{
+       background-color:black;
+	   padding:80px 0;
+} 
      		   
 	
 
