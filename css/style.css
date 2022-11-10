@@ -111,15 +111,15 @@
 	right:0;
 	top:0;
 	background-color:rgba(0,0,0,0);
-	padding:10px ;
+	padding:15px ;
 }
 h1.logo>a{
     color:white;
 	text-decoration:none;
 	display:inline-block;
-	font-size:35px;
-	letter-spacing:1px;
-	font-weight:600;
+	font-size:32px;
+	letter-spacing:2px;
+	font-weight:700;
 	text-transform:uppercase;
 }
 h1.logo>a>span{
@@ -256,14 +256,14 @@ h1.logo>a>span{
 }
     /*about section style*/
 .about-section{
-         padding:80px 0;
+    padding:80px 0;
 }
 .about-content h3{
-	   font-size:30px;
-	   margin-bottom:15px;
+	font-size:30px;
+	margin-bottom:15px;
 }
 .about-content p{
-	   margin-bottom:20px;
+	margin-bottom:20px;
 }
 .about-content ul{
 	margin-bottom:20px;
@@ -286,13 +286,42 @@ h1.logo>a>span{
 }	 
       /*  client logo section style*/
 .client-logo-section{
-         background-color:pink;
-         padding:80px 0;
+         padding:60px 0;
 }
 .client-logo{
-          background-color:black;
-          height:80px;
+         height:100%;
+		 padding:20px 40px;
+		 display:block;
+		 text-decoration:none;
 }
+.client-logo img{
+	width:100%;
+	height:auto;
+	filter:grayscale(100%);
+	opacity:0.6;
+	transition:all 0.3s ease;
+}
+.client-logo img:hover{
+	filter:grayscale(0);
+	opacity:1;
+}
+.dots{
+	text-align:center;
+	padding:20px 10px;
+}
+.dots .dots-box{
+	  display:inline-block;
+	  width:10px;
+	  height:10px;
+	  background-color:#ccc;
+	  border-radius:50%;
+	  margin:0 2px;
+	  cursor:pointer;
+}
+.dots-box.active{
+	background-color:#ffc451;
+}
+	  
 		/*about2 section style*/
 .about2-section{
          background-color:black;

@@ -23,9 +23,14 @@ time, mark, audio, video {
 }
 
 body {
-    line-height:1.2;
+    line-height:1;
 	font-family:Open Sans;sans-serif;
+	
+}
+p,li{
 	color:#444444;
+	font-size:16px;
+	line-height:22px;
 }
 
 article,aside,details,figcaption,figure,
