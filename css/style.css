@@ -104,13 +104,7 @@
 .text-right{
 	  text-align:right !important
 }
-
-
-
-
-
-    	
-   /*header section style*/
+  /*header section style*/
 .header-section{
 	position:fixed;
 	left:0;
@@ -141,7 +135,7 @@ h1.logo>a>span{
 	display:block;
 	text-decoration:none;
 	color:white;
-	font-size:18px;
+	font-size:15px;
 	padding:15px 12px;
 	transition:all 0.3s ease;
 }
@@ -223,55 +217,72 @@ h1.logo>a>span{
 }
 .banner-content{
 	   text-align:center;
-	   margin-bottom:50px;
+	   margin-bottom:80px;
 }
 .banner-content h1{
 	   color:white;
-	   font-size:60px;
-	   font-weight:1000;
-	   line-height:68px;
-	   padding-bottom:15px;
+	   font-size:55px;
+	   font-weight:800;
+	   line-height:60px;
+	   padding-bottom:18px;
 }
 .banner-content h1 span{
 	color:#ffc451;
 }
 .banner-content p{
 	color:#eee;
-	font-size:27px;
+	font-size:23px;
 }
 .banner-box{
 	border:1px solid #777;
 	text-align:center;
-	padding:30px 10px;
+	padding:30px 15px;
 	color:white;
 	height:100%;
 	transition:all 0.3s ease;
 }
 .banner-box h4{
-	font-size:25px;
+	font-size:20px;
 }
 	
 .banner-box i{
 	color:#ffc451;
 	font-size:25px;
 	display:inline-block;
-	margin-bottom:18px;
+	margin-bottom:20px;
 }
 .banner-box:hover{
 	 border-color:#ffc451;
 }
     /*about section style*/
 .about-section{
-         background-color:black;
          padding:80px 0;
 }
-.about-content{
-        background-color:pink;
-        height:450px;
+.about-content h3{
+	   font-size:30px;
+	   margin-bottom:15px;
 }
-.about-image{
-        background-color:pink;
-        height:450px;
+.about-content p{
+	   margin-bottom:20px;
+}
+.about-content ul{
+	margin-bottom:20px;
+}
+.about-content ul li{
+	padding-bottom:15px;
+	position:relative;
+	padding-left:20px;
+}
+.about-content ul li i{
+	color:#ffc451;
+	position:absolute;
+	top:0;
+	left:0;
+	font-size:15px;
+}
+.about-image img{
+       width:100%;
+	   height:auto;
 }	 
       /*  client logo section style*/
 .client-logo-section{
