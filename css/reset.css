@@ -29,13 +29,16 @@ body {
 }
 p,li{
 	color:#444444;
-	font-size:16px;
+	font-size:15px;
 	line-height:22px;
 }
 
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
     display:block;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
 }
 
 nav ul,ul {
