@@ -584,10 +584,30 @@ li.active{
 .team-section{
        padding:80px 0;
 } 
-.team-image{
-       background-color:pink;
-         height:200px;
+.team-image img{
+          width:100%;
+		  height:auto;
 		 margin-top:20px;
-}		
+		 border-radius:5px;
+}
+.team-box{
+	background: #fff;
+}	
 
-	  
+    /*--------contact section style------*/
+.contact-section{
+	 padding:80px 0;
+}
+.contact-map{
+	background-color:pink;
+	height:100px;
+}
+.contact-form{
+	background-color:blue;
+	height:300px;
+	padding-left:20px;
+}
+    /*--------address section style-----*/
+.address-section{
+	padding:80px 0;
+}
