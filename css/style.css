@@ -453,6 +453,7 @@ h1.logo>a>span{
 }
 .call-action-content a:hover{
 	background-color:#ffc451;
+	border:none;
 }
           /* portfolio section style*/
 .portfolio-section{
@@ -792,7 +793,7 @@ li.active{
 	
     /*--------address section style-----*/
 .address-section{
-	background-color:black;
+	background-color:#000000e8;
 	color:white;
 	padding:80px 0;
 }
@@ -811,6 +812,22 @@ li.active{
 	font-size: 14px;
     line-height: 24px;
 	padding-bottom:15px;
+}
+.address a{
+	display:inline-block;
+	background:#292929;
+    color: #fff;
+    line-height: 1;
+	text-decoration:none;
+	padding:8px;
+	border-radius:4px;
+	margin-right:3px;
+}
+.address i{
+	font-size:14px;
+}
+.address a:hover{
+	background-color:#ffc451;
 }
 .links a{
 	text-decoration:none;
@@ -858,8 +875,48 @@ li.active{
 	color:white;
 	padding-bottom:10px;
 }
-.networks input{
-	width:50%;
-	height:50%;
+.networks form{
+	margin-top:30px;
 }
+.networks input{
+	background: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+.btns{
+	background-color:#ffc451;
+	color:black;
+	padding:6px 10px;
+	cursor:pointer;
+	border:none;
+}
+/*---------------footer section---*/
+.footer-section{
+	background-color:black;
+	color:white;
+	padding:40px 0;
+}
+.foot{
+	justify-content:center;
+	text-align:center;
+}
+.foot h6{
+	font-weight:400;
+	font-size:15px;
+	padding-bottom:8px;
+}
+.foot p{
+    font-size: 13px;
+    color: #fff;
+}
+.foot a{
+	color:#ffc451;
+	text-decoration:none;
+}
+
+
+
+
+
+
 
