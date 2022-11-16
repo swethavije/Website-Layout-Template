@@ -819,15 +819,16 @@ li.active{
     color: #fff;
     line-height: 1;
 	text-decoration:none;
-	padding:8px;
+	padding:7px 10px;
 	border-radius:4px;
 	margin-right:3px;
 }
 .address i{
-	font-size:14px;
+	font-size:15px;
 }
 .address a:hover{
 	background-color:#ffc451;
+	color:black;
 }
 .links a{
 	text-decoration:none;
