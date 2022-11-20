@@ -453,7 +453,7 @@ h1.logo>a>span{
 }
 .call-action-content a:hover{
 	background-color:#ffc451;
-	border:none;
+	border-color:#ffc451;
 }
           /* portfolio section style*/
 .portfolio-section{
@@ -583,7 +583,7 @@ li.active{
 }
 .about3-sub-content{
        position:relative;
-       padding-left:50px;
+       padding-left:55px;
 	   padding-top:30px;
        font-size:40px;
 }
@@ -595,7 +595,7 @@ li.active{
        left:0px;
        top:38px;
        color:#ffc451;
-	   font-size:37px;
+	   font-size:43px;
 }
 /*.about3-sub-content i{
 	display:inline-block;
@@ -660,7 +660,7 @@ li.active{
 	      display:block;
 	      width:100%;
 		  height:auto;
-		  border-radius:5px;
+		  border-radius:4px 4px;
 }
 .team-image{
 	  position:relative;
@@ -715,10 +715,9 @@ li.active{
 .contact-section{
 	 padding:80px 0;
 }
-/*.contact-map{
-	background-color:pink;
-	height:100px;
-}*/
+.contact-map{
+	margin-bottom:55px;
+}
 .con-icons{
 	position: relative;
 	display:flex;
@@ -727,16 +726,16 @@ li.active{
 .con-icons i{
 	position:absolute;
 	left:0;
-	top:5px;
+	top:0;
 }
 .info{
-	padding-left:55px;
+	padding-left:65px;
 	margin-bottom:55px;
 }
 .info h3{
-	font-size: 22px;
+	font-size: 23px;
     font-weight: 600;
-	margin-bottom:5px;
+	margin-bottom:7px;
 }
 .info p{
 	font-size: 14px;
@@ -747,39 +746,34 @@ li.active{
 	color:#444;
 	font-size:25px;
 	border:1px solid #ffc451;
-	border-radius:5px;
-	padding:8px;
+	width:50px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+	border-radius:3px;
 }
 .contact-form{
 	padding-left:20px;
 }
-.name input{
-	padding:10px;
-	width:45%;
-	border:1px solid #ccc;
-	margin-bottom:25px;
+.form-control{
+	width:100%;
+	height:40px;
 	border-radius:4px;
-	
-}
-.sub input{
+	border:1px solid #ccc;
+	color:#ccc;
+	font-size:14px;
 	padding:10px;
-	width:91%;
-	border:1px solid #ccc;
-	margin-bottom:25px;
-	border-radius:4px;
-	
-}
-.txt-area textarea{
-	width:91%;
-	border:1px solid #ccc;
 	margin-bottom:20px;
-	border-radius:4px;
-	color:#261414c7;
-	font-family: inherit;
-	font-weight: 400;
-	line-height:1;
-	padding:10px;
-	font-size:15px;
+}
+
+textarea.form-control{
+	width:100%;
+	height:150px;
+	font-family:inherit;
+}
+.form-control:focus{
+	outline:0;
+	border:1px solid #ffc451;
 }
 .con-button button{
 	border:none;
@@ -789,6 +783,10 @@ li.active{
 	border-radius:5px;
 	font-size:16px;
 	letter-spacing:0.9px;
+	cursor:pointer;
+}
+.con-button button:hover{
+	opacity:0.8;
 }
 	
     /*--------address section style-----*/
@@ -839,7 +837,7 @@ li.active{
     font-weight: 600;
 	padding-bottom:20px;
 }
-.links p{
+.links li{
    padding-bottom:10px;
 }   
 .links i{
@@ -853,7 +851,7 @@ li.active{
     font-weight: 600;
 	padding-bottom:20px;
 }
-.services p{
+.services li{
 	padding-bottom:10px;
 }
 
@@ -876,21 +874,35 @@ li.active{
 	color:white;
 	padding-bottom:10px;
 }
-.networks form{
+.subscribe-form{
 	margin-top:30px;
-}
-.networks input{
 	background: #fff;
-    padding: 6px 10px;
-    border-radius: 4px;
+    padding:5px 114px 5px 6px;
+    position: relative;
+    border-radius:5px;
+	overflow:hidden;
+}
+.subscribe-form input{
+	width:100%;
+	height:35px;
+    border-radius:4px;
+	border:2px solid #fff;
 }
 .btns{
-	background-color:#ffc451;
+	position: absolute;
+    top: 0;
+    right:0; 
+    bottom: 0;
+    border:none;
+	height:100%;
+	min-width:110px;
+    font-size:15px;
+    padding:5px 10px;
+    background-color:#ffc451;
 	color:black;
-	padding:6px 10px;
 	cursor:pointer;
-	border:none;
 }
+
 /*---------------footer section---*/
 .footer-section{
 	background-color:black;
