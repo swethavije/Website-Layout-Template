@@ -660,7 +660,7 @@ li.active{
 	      display:block;
 	      width:100%;
 		  height:auto;
-		  border-radius:4px 4px;
+		  border-radius:4px 4px 0 0;
 }
 .team-image{
 	  position:relative;
