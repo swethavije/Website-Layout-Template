@@ -1,0 +1,14 @@
+/*-----mobile device-----*/
+@media(max-width:576px){
+}
+/*-----mobile device landscape and smaller device-----*/
+@media(min-width:576px){
+}
+/*-----median device-----*/
+@media(min-width:768px){
+}
+/*-----large device-----*/
+@media(min-width:992px){
+}/*-----extra large and desktop device-----*/
+@media(min-width:1200px){
+}
