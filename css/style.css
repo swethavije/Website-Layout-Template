@@ -75,11 +75,11 @@
 }
 .mobile-btn{
 	position:absolute;
-	top:16px;
+	top:20px;
 	right:20px;
 	background:transparent;
 	color:white;
-	font-size:35px;
+	font-size:25px;
 	border:none;
 }
 	
@@ -127,6 +127,9 @@
 }
 .text-right{
 	  text-align:right !important
+}
+.column-reverse{
+	flex-direction:column-reverse !important;
 }
   /*header section style*/
 .header-section{
@@ -362,9 +365,9 @@ h1.logo>a>span{
 	padding-bottom:45px;
         
 }
-.about2-content:first-child{
+/*.about2-content:first-child{
         margin-top:20px;
-}
+}*/
 .about2-content{
    position:relative;
        padding-left:60px;
