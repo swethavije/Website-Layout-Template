@@ -104,6 +104,9 @@
 }
 /*-----median device-----*/
 @media(min-width:768px){
+.d-md-none{
+	display:none !important;
+}
 .d-md-block{
 	display:block !important;
 }
