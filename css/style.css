@@ -1,5 +1,11 @@
+/**{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}*/
+
 .container{
-	width:1170px;
+	width:100%;
 	padding:0 15px;
 	margin:0 auto;
 }
@@ -13,54 +19,72 @@
 	width:100%;
 	padding:0 15px;
 }
-.col-lg-1{ 
+.col-1{ 
       width:8.33%;
 	  padding:0 15px;
 }
-.col-lg-2{ 
+.col-2{ 
       width:16.66%;
 	  padding:0 15px;
 }
-.col-lg-3{ 
+.col-3{ 
       width:25%;
 	  padding:0 15px;
 }
-.col-lg-4{ 
+.col-4{ 
       width:33.33%;
 	  padding:0 15px;
 }
-.col-lg-5{ 
+.col-5{ 
       width:41.66%;
 	  padding:0 15px;
 }
-.col-lg-6{ 
+.col-6{ 
       width:50%;
 	  padding:0 15px;
-}-
-.col-lg-7{ 
+}
+.col-7{ 
       width:58.33%;
 	  padding:0 15px;
 }
-.col-lg-8{ 
+.col-8{ 
       width:66.66%;
 	  padding:0 15px;
 }
-.col-lg-9{ 
+.col-9{ 
       width:75%;
 	  padding:0 15px;
 }
-.col-lg-10{ 
+.col-10{ 
       width:83.33%;
 	  padding:0 15px;
 }
-.col-lg-11{ 
+.col-11{ 
       width:91.66%;
 	  padding:0 15px;
 }
-.col-lg-12{ 
+.col-12{ 
       width:100%;
 	  padding:0 15px;
 }
+.d-none{
+	display:none !important;
+}
+.d-block{
+	display:block !important;
+}
+.mobile-btn{
+	position:absolute;
+	top:16px;
+	right:20px;
+	background:transparent;
+	color:white;
+	font-size:35px;
+	border:none;
+}
+	
+/*----mbl menu -------*/
+
       /*Common style -------*/
 .buttons{
 	display:inline-block;
@@ -110,6 +134,7 @@
 	left:0;
 	right:0;
 	top:0;
+	z-index:99;
 	background-color:rgba(0,0,0,0);
 	padding:15px ;
 }
@@ -204,7 +229,7 @@ h1.logo>a>span{
 
      /*bannner section start*/
 .banner-section{
-       background-color:pink;
+	   background-color:pink;
 	   background-image:linear-gradient(rgb(0 0 0/60%),rgb(0 0 0/60%)),url(../image/hero.jpg);
 	   background-repeat:no-repeat;
 	   background-size:cover;
@@ -241,8 +266,9 @@ h1.logo>a>span{
 	color:white;
 	height:100%;
 	transition:all 0.3s ease;
+	margin-bottom:20px;
 }
-.banner-box h4{
+.banner-box h3{
 	font-size:20px;
 }
 	
