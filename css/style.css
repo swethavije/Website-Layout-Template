@@ -627,14 +627,7 @@ li.active{
        color:#ffc451;
 	   font-size:43px;
 }
-/*.about3-sub-content i{
-	display:inline-block;
-	width:62px;
-	height:65px;
-	line-height:65px;
-	color:#ffc451;
-	font-size:40px;
-}	*/
+
      	/* team banner section style*/
 .team-banner-section{
        background-image:linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)),url(../image/testimonials-bg.jpg);
@@ -946,11 +939,7 @@ textarea.form-control{
 	justify-content:center;
 	text-align:center;
 }
-.foot h6{
-	font-weight:400;
-	font-size:15px;
-	padding-bottom:8px;
-}
+
 .foot p{
     font-size: 13px;
     color: #fff;
