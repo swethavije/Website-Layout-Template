@@ -48,6 +48,17 @@
    .networks h2{
 	   margin-top:20px;
   }
+  .about2-content:first-child{
+		margin-top:20px;
+	}
+	.about3-section{
+	     padding:30px 0;
+	}
+	.about3-main-content h3{
+	    margin:20px 0 15px;  
+	}
+	
+		 
 	   
 }
 /*-----mobile device landscape and smaller device-----*/
@@ -174,7 +185,7 @@
 		display:none;
 	}
 	.team-banner-section br{
-		display:none
+		display:none;
 	}
 	 .services h2{
       margin-top:30px;
@@ -195,6 +206,9 @@
 	}
 	.about2-content:first-child{
 		margin-top:20px;
+	}
+	.about3-main-content h3{
+	    margin-bottom:10px;  
 	}
 }
 /*-----large device-----*/
@@ -266,6 +280,21 @@
 	  margin-left:0;
 	  margin-top:0;
   }
+  .services h2{
+      margin-top:0;
+  }
+   .networks h2{
+	   margin-top:0;
+  }
+  .team-banner-section br{
+		display:block;
+	}
+	.banner-box {
+       height:100%;
+}
+   .about-content h3{
+      margin-top:0;
+   }
 
 }
 /*-----extra large and desktop device-----*/
